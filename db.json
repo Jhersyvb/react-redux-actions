@@ -1,0 +1,17 @@
+{
+  "comments": [
+    {
+      "id": 1,
+      "author": "Sara",
+      "content": "Me gusta el curso",
+      "postId": 1
+    }
+  ],
+  "posts": [
+    {
+      "author": "Sara",
+      "content": "Pedagogia en 4to grado",
+      "id": 1
+    }
+  ]
+}

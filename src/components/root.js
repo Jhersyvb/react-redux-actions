@@ -16,10 +16,8 @@ class Root extends Component {
   componentDidMount() {
     const { getComments, getPosts } = this.props
 
-    getPosts([{ id: 30, content: 'React redux actions' }])
-    getComments([
-      { id: 1, postId: 30, author: 'Sara', content: 'Curso de react redux' },
-    ])
+    getPosts([])
+    getComments([])
   }
 
   render() {

@@ -1,12 +1,12 @@
 import { handleActions } from 'redux-actions'
-import { createPost, getPosts } from '../actions'
+import { createPostSuccess, getPostsSuccess } from '../actions'
 
 export default handleActions(
   {
-    [createPost]: (state, action) => {
+    [createPostSuccess]: (state, action) => {
       return [...state, action.payload]
     },
-    [getPosts]: (state, action) => {
+    [getPostsSuccess]: (state, action) => {
       return action.payload
     },
   },
